@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+    <!--<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>-->
+</head>
+<body>
+<div class="page">
+    <div class="pageHead"><p>添加用户</p></div>
+    <div class="pageBody">
+        <div class="return"><img src="./images/UI/return.jpg" /></div>
+        <form>
+            <div class="upLeft">
+                <ul>
+                    <li class="textArea">
+                        <label for="username">用户名：</label>
+                        <input type="text" class="input" name="username" id="username"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="password">密码：</label>
+                        <input type="password" class="input" name="password" id="password"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="confirm">确认密码：</label>
+                        <input type="password" class="input" name="confirm" id="confirm"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="nickname">昵称：</label>
+                        <input type="text" class="input" name="nickname" id="nickname"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="phone">手机号码：</label>
+                        <input type="text" class="input" name="phone" id="phone"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="email">邮箱地址：</label>
+                        <input type="text" class="input" name="email" id="email"/><span class="must">*</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="upRight">
+                <ul>
+                    <li class="textArea">
+                        <label for="realname">真实姓名：</label>
+                        <input type="text" class="input" name="realname" id="realname"/>
+                    </li>
+                    <li class="textArea">
+                        <label for="gender">性别：</label>
+                        <select class="select" name="gender" id="gender">
+                            <option value="" selected="selected">请选择</option>
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </li>
+                    <li class="textArea">
+                        <label for="birthday">出生日期：</label>
+                        <input type="date" class="input" name="birthday" id="birthday"/>
+                    </li>
+                </ul>
+            </div>
+            <div class="down">
+                <ul>
+                    <li class="btnArea">
+                        <input type="button" class="button" name="submit" value="提交"/>
+                    </li>
+                    <li class="btnArea">
+                        <input type="reset" class="button" name="reset" value="重置"/>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="./css/page.css"/>
+<link rel="stylesheet" type="text/css" href="./css/add_user.css"/>
+<script src="./js/add_user.js"></script>
+</body>
+</html>

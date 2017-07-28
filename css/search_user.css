@@ -1,0 +1,58 @@
+.person{
+    text-align: center;
+}
+
+.person a{
+    font-size: 20px;
+}
+.person table {
+    margin: 10px auto;
+}
+
+.personHead {
+    text-align: right;
+    background: rgb(205, 234, 250);
+    width: 150px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.personData {
+    background: rgb(245, 245, 245);
+    width: 350px;
+    height: 25px;
+}
+.address{
+    text-align: center;
+    margin: 40px auto;
+}
+.address a{
+    font-size: 20px;
+}
+.address table {
+    margin: 10px auto;
+}
+
+.adderssHead {
+    width: 203px;
+    height: 25px;
+    background: rgb(155,201,253);
+}
+.adderssData {
+    width: 168px;
+    height: 25px;
+}
+.odd {
+    background-color: rgb(254, 247, 229);
+}
+.even {
+    background-color: rgb(222, 240, 216);
+}
+
+.return {
+    margin: 10px;
+}
+
+.return:hover {
+    cursor: pointer;
+}

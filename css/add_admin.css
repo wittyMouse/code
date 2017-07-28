@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.up {
+    text-align: right;
+    margin: 20px 40% 0 10%;
+}
+.down ul li{
+    display: inline;
+}
+.down ul{
+    text-align: center;
+}
+.input{
+    width: 200px;
+    height: 25px;
+    margin:5px 0;
+}
+.must{
+    margin:0 0 0 5px;
+    color: rgb(255,0,0);
+}
+.button{
+    width: 200px;
+    height: 25px;
+    margin:50px 0;
+}
+.return{
+    margin: 10px;
+}
+.return:hover{
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+}

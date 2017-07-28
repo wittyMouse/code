@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台登录</title>
+    <!--链接外部css-->
+    <link rel="stylesheet" type="text/css" href="./css/login.css"/>
+    <script src="./js/jquery-3.2.1.js"></script>
+    <!--链接外部js-->
+    <script src="./js/login.js"></script>
+    <script src="./js/login_ui.js"></script>
+    <script src="./js/regist.js"></script>
+</head>
+<body>
+<div id="login">
+    <div id="login_event"><a id="text">登录</a></div>
+    <div id="login_form">
+        <h1 id="login_title">后台登录</h1>
+        <form>
+            <input name="username" id="username" type="text" placeholder="请输入用户名"/>
+            <input name="password" id="password" type="password" placeholder="请输入密码"/>
+            <input id="btn" class="btn" type="button" value="登录"/>
+            <a id="regist_btn" class="label">注册</a>
+        </form>
+    </div>
+</div>
+<div id="regist">
+    <div id="regist_form">
+    <h1 id="regist_title">注册</h1>
+    <form id>
+        <input name="username" class="regist_input" type="text" placeholder="账号"/>
+        <input name="password" class="regist_input" type="password" placeholder="密码"/>
+        <input name="confirm" class="regist_input" type="password" placeholder="确认密码"/>
+        <input name="phone" class="regist_input" type="number" placeholder="手机"/>
+        <input name="email" class="regist_input" type="email" placeholder="邮箱"/>
+        <input name="btn" type="button" value="注册"/>
+    </form>
+    </div>
+</div>
+</body>
+</html>

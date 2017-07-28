@@ -1,0 +1,41 @@
+<html>
+<body>
+<div class="page">
+    <div class="pageHead"><p>添加分类</p></div>
+    <div class="pageBody">
+        <div class="return"><img src="./images/UI/return.jpg" /></div>
+        <form>
+            <div class="up">
+                <ul>
+                    <li class="textArea">
+                        <label for="classify_id">分类号：</label>
+                        <input type="text" class="input" name="classify_id" id="classify_id"/>
+                    </li>
+                    <li class="textArea">
+                        <label for="classify_name">分类名：</label>
+                        <input type="text" class="input" name="classify_name" id="classify_name"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="child_classify_id">子分类号：</label>
+                        <input type="text" class="input" name="child_classify_id" id="child_classify_id"/>
+                    </li>
+                </ul>
+            </div>
+            <div class="down">
+                <ul>
+                    <li class="btnArea">
+                        <input type="button" class="button" name="submit" value="提交"/>
+                    </li>
+                    <li class="btnArea">
+                        <input type="reset" class="button" name="reset" value="重置"/>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="./css/page.css"/>
+<link rel="stylesheet" type="text/css" href="./css/add_classify.css"/>
+<script src="./js/update_classify.js"></script>
+</body>
+</html>

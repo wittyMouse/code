@@ -1,0 +1,87 @@
+.space {
+    opacity: 0;
+    padding: 0 20px 0 0;
+}
+
+.topBtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 20px 0px 0 10px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+
+.topBtn[name=user_add] {
+    background-image: url(../images/UI/add.jpg);
+}
+
+.topBtn[name=user_delete] {
+    background-image: url(../images/UI/delete.jpg);
+}
+.topBtn[name=user_search] {
+    background-image: url(../images/UI/search.jpg);
+}
+
+.topBtn[name=user_add]:hover, .topBtn[name=user_delete], .topBtn[name=user_search]:hover {
+    cursor: pointer;
+}
+
+.table {
+    width: 98.5%;
+    border-collapse: collapse;
+    margin: 20px 10px;
+}
+
+.table th, .table td {
+    padding: 10px 7px 10px 7px;
+}
+
+.table th {
+    text-align: left;
+    background: rgb(245, 245, 245);
+}
+
+.table tr.odd {
+    background-color: rgb(254, 247, 229);
+}
+
+.table tr.even {
+    background-color: rgb(222, 240, 216);
+}
+
+.table tr td[name=alter] a {
+    color: blue;
+}
+
+.newArea {
+    position: absolute;
+    top: 500px;
+    right: 450px;
+}
+
+.newArea ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.newArea ul li {
+    display: inline;
+    font-size: 14px;
+    margin: 0 0 0 5px;
+}
+
+.nowPage {
+    color: black;
+}
+
+.tips {
+    color: blue;
+}
+
+.table tr td[name=alter] a:hover {
+    cursor: pointer;
+    color: red;
+}

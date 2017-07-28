@@ -1,0 +1,98 @@
+body{
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.upLeft{
+    text-align: right;
+    display: inline-table;
+    margin: 20px 30% 0 10%;
+}
+.upRight{
+    text-align: right;
+    display: inline-table;
+}
+
+.down ul li{
+    display: inline-table;
+}
+.down{
+    text-align: center;
+}
+.input{
+    width: 200px;
+    height: 25px;
+    margin:5px 0;
+}
+.must{
+    margin:0 0 0 5px;
+    color: rgb(255,0,0);
+}
+.select{
+    width:200px;
+    height: 29px;
+    margin:5px 0;
+}
+.button{
+    width: 200px;
+    height: 25px;
+    margin:50px 0;
+}
+.return{
+    margin: 10px;
+}
+.return:hover{
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.textArea{*/
+    /*margin:10px 5px;*/
+    /*display: block;*/
+/*}*/
+/*.btnArea{*/
+    /*margin:10px 5px;*/
+    /*!*display: block;*!*/
+/*}*/
+/*.input{*/
+    /*width: 200px;*/
+    /*height: 25px;*/
+    /*!*outline: none;*!*/
+    /*display: block;*/
+/*}*/
+/*.must{*/
+    /*color: rgb(255,0,0);*/
+
+/*}*/
+/*.button{*/
+    /*width: 200px;*/
+    /*heigth: 200px;*/
+    /*margin: 0 1px;*/
+
+/*}*/
+/*.button:focus{*/
+    /*background: linear-gradient(rgb(220,220,220),rgb(230,230,230),rgb(240,240,240),rgb(250,250,250));*/
+/*}*/

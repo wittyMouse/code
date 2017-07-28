@@ -1,0 +1,76 @@
+<html>
+<body>
+<div class="page">
+    <div class="pageHead"><p>添加商品</p></div>
+    <div class="pageBody">
+        <div class="return"><img src="./images/UI/return.jpg" /></div>
+        <form>
+            <div class="upLeft">
+                <ul>
+                    <li class="textArea">
+                        <label for="goods_name">商品名称：</label>
+                        <input type="text" class="input" name="goods_name" id="goods_name"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="classify_name">商品类别：</label>
+                        <select class="select" name="classify_name" id="classify_name">
+                            <option value="" selected="selected">请选择</option>
+                        </select><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="model">商品型号：</label>
+                        <input type="text" class="input" name="model" id="model"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="color">商品颜色：</label>
+                        <input type="text" class="input" name="color" id="color"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="version">商品版本：</label>
+                        <input type="text" class="input" name="version" id="version"/><span class="must">*</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="upRight">
+                <ul>
+                    <li class="textArea">
+                        <label for="price">商品价格：</label>
+                        <input type="number" class="input" name="price" id="price"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="store">库存量：</label>
+                        <input type="number" class="input" name="store" id="store"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="sales">销售量：</label>
+                        <input type="number" class="input" name="sales" id="sales"/><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="description">简介：</label>
+                        <input type="text" class="input" name="description" id="description" /><span class="must">*</span>
+                    </li>
+                    <li class="textArea">
+                        <label for="image">上传图片：</label>
+                        <input type="file" multiple="multiple" class="input" name="image[]" id="image"/><span class="must">*</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="down">
+                <ul>
+                    <li class="btnArea">
+                        <input type="button" class="button" name="submit" value="提交"/>
+                    </li>
+                    <li class="btnArea">
+                        <input type="reset" class="button" name="reset" value="重置"/>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="./css/page.css"/>
+<link rel="stylesheet" type="text/css" href="./css/add_goods.css"/>
+<script src="./js/add_goods.js"></script>
+<script src="./js/select.js"></script>
+</body>
+</html>
